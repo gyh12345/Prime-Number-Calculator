@@ -201,8 +201,8 @@ public class Main {
         }
 
         if (isPrime == true) {
-            sb.append(" " + n + " is a prime number.\nA prime number can only be divided by 1 or itself,\n" +
-                    "therefore it cannot be factorized further!");
+            sb.append(" " + n + " is a prime number.\n A prime number can only be divided by 1 or itself,\n" +
+                    " therefore it cannot be factorized further!");
         } else {
             sb.append(" Step 1: Divide "+ n +" by prime numbers until the remainder is a prime number.\n");
             for (int i = 0; i < primeNumbers.size(); i++){
