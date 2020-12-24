@@ -128,7 +128,7 @@ public class Main {
             // Step 3 end
 
             // Step 4
-            sb.append(" Step 4: Check whether " + n + " can be divided by any\n\t\todd number(D) between 3 and k, where k = " +
+            sb.append(" Step 4: Check whether " + n + " can be divided by any\n\todd number(D) between 3 and k, where k = " +
                     (int)Math.floor(sqrtN) + ".");
             ArrayList<Integer> oddBetweenSqrt = new ArrayList(); // to save the odd number(s) between 3 and k
             for (int i = 3; i <= sqrtN; i++){ // to detect and save odd number
